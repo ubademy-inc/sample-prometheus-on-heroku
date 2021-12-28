@@ -6,8 +6,8 @@ scrape_configs:
     scrape_interval: 5s
     static_configs:
       - targets: ['localhost']
-   - job_name: 'ubademy'
-         metrics_path: '/metrics'
-         scheme: http
-         static_configs:
-           - targets: ['ubademy-grupo-13-cursos.herokuapp.com']
+  - job_name: 'ubademy'
+    metrics_path: '/metrics'
+    scheme: http
+    static_configs:
+      - targets: ['ubademy-grupo-13-cursos.herokuapp.com']
